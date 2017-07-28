@@ -1,4 +1,4 @@
 FROM cox-openjdk18-web-basic
-ADD hello.war /deployments/
+COPY hello.war /opt/webserver/webapps
 
 
