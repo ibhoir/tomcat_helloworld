@@ -1,4 +1,4 @@
-FROM cox-tomcat8-java8-oracle
+FROM cox-openjdk18-web-basic
 ADD hello.war /deployments/
 
 
